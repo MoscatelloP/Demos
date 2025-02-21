@@ -21,7 +21,7 @@ Its main objective is to facilitate any technical evolution, framework or databa
 Particullary useful for long term projects.<br>
 
 To achieve this, I divided the project in modules :<br>
-- Core : This is where the DI framework will be configured and implemented. This module will be responsible for running the buisness layer of the application.
-- Services : the buisness logic module
+- Core : This is where the DI framework(s) will be configured and implemented. This module will be responsible for running the application.
+- Services : the buisness logic module. Importing libraries (expect for tests) is prevented by the maven enforcer plugin
 - Repository : the DAO layer. Implements the SPI interfaces of the service module
 - Controller : A Web API layer. Use the API interfaces provided by the service layer

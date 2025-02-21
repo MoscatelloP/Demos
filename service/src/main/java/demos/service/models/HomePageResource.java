@@ -1,7 +1,7 @@
-package fr.mosca.service.models;
+package demos.service.models;
 
-import fr.mosca.service.annotations.DomainService;
-import fr.mosca.service.controller.HomePageResources;
+import demos.service.annotations.DomainService;
+import demos.service.api.HomePageResources;
 
 @DomainService
 public class HomePageResource implements HomePageResources {

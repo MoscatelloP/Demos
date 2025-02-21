@@ -1,4 +1,4 @@
-package fr.mosca.service.controller;
+package demos.service.api;
 
 public interface HomePageResources {
 

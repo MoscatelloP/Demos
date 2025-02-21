@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>fr.mosca</groupId>
+        <groupId>demos</groupId>
         <artifactId>Demos</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -19,7 +19,7 @@
             <version>${spring-web-mvc-version}</version>
         </dependency>
         <dependency>
-            <groupId>fr.mosca</groupId>
+            <groupId>demos</groupId>
             <artifactId>service</artifactId>
             <version>${project.version}</version>
         </dependency>

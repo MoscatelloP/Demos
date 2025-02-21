@@ -1,6 +1,6 @@
-package fr.mosca.controller;
+package demos.controller;
 
-import fr.mosca.service.controller.HomePageResources;
+import demos.service.api.HomePageResources;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
