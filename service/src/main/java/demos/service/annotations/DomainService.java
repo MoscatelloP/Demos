@@ -1,4 +1,4 @@
-package fr.mosca.service.annotations;
+package demos.service.annotations;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
