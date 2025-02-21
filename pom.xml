@@ -23,6 +23,7 @@
         <spring-boot-version>3.4.2</spring-boot-version>
         <spring-web-mvc-version>6.2.2</spring-web-mvc-version>
         <maven-enforcer-version>3.5.0</maven-enforcer-version>
+        <maven-dependency-version>3.8.1</maven-dependency-version>
     </properties>
 
     <build>
@@ -38,7 +39,7 @@
                         </goals>
                         <configuration>
                             <rules>
-                                <dependencyConvergence/> <!--Si plusieurs modules utilisent une même dépendance, celle-ci doit avoir une version identique-->
+                                <banDuplicatePomDependencyVersions/>
                             </rules>
                         </configuration>
                     </execution>
