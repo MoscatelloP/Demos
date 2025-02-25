@@ -11,5 +11,13 @@
     </parent>
 
     <artifactId>repository</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>demos</groupId>
+            <artifactId>service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
     
 </project>

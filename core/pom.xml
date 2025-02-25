@@ -28,6 +28,11 @@
             <artifactId>controller</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>demos</groupId>
+            <artifactId>repository</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
     
 </project>

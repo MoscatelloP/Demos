@@ -22,6 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-boot-version>3.4.2</spring-boot-version>
         <spring-web-mvc-version>6.2.2</spring-web-mvc-version>
+        <jax-rs-version>2.0</jax-rs-version>
         <maven-enforcer-version>3.5.0</maven-enforcer-version>
     </properties>
 
